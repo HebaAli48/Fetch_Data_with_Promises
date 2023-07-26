@@ -1,0 +1,40 @@
+.usercontainer {
+    height: 5vh;
+    background-color: blueviolet;
+    cursor: pointer;
+    border-radius: 10%;
+    width: 200px;
+    padding-top: 2vh;
+    transition: all 0.2s ease-in-out; /* add transition for smoother effect */
+  }
+  
+  .usercontainer:hover {
+    background-color: purple;
+    transform: scale(1.05);
+  }
+  
+  .usercontainer.selected {
+    background-color: deepskyblue;
+    transform: scale(1.09);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .userscontainer {
+    color: white;
+    height: fit-content;
+    display: flex;
+    gap:12px;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center; /* center elements horizontally */
+    align-items: center; /* center elements vertically */
+    text-align: center;
+    text-shadow: 1px 1px #1b1b1b;
+ 
+  }
+#content{
+
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold
+}
